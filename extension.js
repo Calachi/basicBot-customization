@@ -55,14 +55,14 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "basicBot",
+        botName: "Cal_Tea_Bot",
         language: "english",
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
         startupEmoji: false, // true or false
         cmdDeletion: true,
-        chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
-        maximumAfk: 120,
+        chatLink: "https://rawgit.com/Calachi/Cal_Tea_Bot/master/lang/en.json",
+        maximumAfk: 90,
         afkRemoval: true,
         maximumDc: 60,
         bouncerPlus: true,
@@ -72,7 +72,7 @@
         maximumLocktime: 10,
         cycleGuard: true,
         maximumCycletime: 10,
-        voteSkip: false,
+        voteSkip: true,
         voteSkipLimit: 10,
         timeGuard: true,
         maximumSongLength: 10,
@@ -91,12 +91,12 @@
         ],
         afkpositionCheck: 15,
         afkRankCheck: "ambassador",
-        motdEnabled: false,
+        motdEnabled: true,
         motdInterval: 5,
         motd: "Temporary Message of the Day",
         filterChat: true,
         etaRestriction: false,
-        welcome: true,
+        welcome: false,
         opLink: null,
         rulesLink: null,
         themeLink: null,
@@ -108,8 +108,7 @@
         songstats: true,
         commandLiteral: "!",
         blacklists: {
-            NSFW: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
-            OP: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/ExampleOPlist.json"
+            OP: "https://docs.google.com/document/d/1fphsBTaL5WB5L-gcrQP8PrQhY95esOpJP7ULUVCmY7A/edit?usp=sharing"
         }
     }));
 
